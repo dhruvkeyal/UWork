@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/announcements"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/announcements"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:text="   Announcements: Welcome to your new workspace."
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@id/announcements"
+        android:background="#000000"/>
+
+    <TextView
+        android:id="@+id/shift_cover"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/announcements"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:text="   Your next shift is coming up soon."
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@id/shift_cover"
+        android:background="#000000"/>
+
+    <TextView
+        android:id="@+id/cover_up"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/shift_cover"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:text="   There is a new shift that you can pick up!"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@id/cover_up"
+        android:background="#000000"/>
+
+    <TextView
+        android:id="@+id/people"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/cover_up"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:text="   Connect to your co-workers!"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@id/people"
+        android:background="#000000"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="#ffffff"
+        app:itemTextColor="#ffffff"
+        app:menu="@menu/bottom_navigation_main" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="ExtraTranslation">      UWork</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="annts">Announcements</string>
+    <string name="shift_cover">Shifts and Cover Ups</string>
+    <string name="people">Messages</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="schedule">My Schedule</string>
+    <string name="cover_up">Cover Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="day">Day</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="job_title">Job Title</string>
+    <string name="job_description">Job Description</string>
+    <string name="create_shift">Create A Shift!</string>
+</resources>
